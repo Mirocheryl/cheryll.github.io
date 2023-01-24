@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body bgcolor="d2c7cb">
+
+    <section id="Home">
+        <nav>
+            <div class="overylay">
+                <img src="cover.png">
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Gallary">Gallary</a></li>
+                <li><a href="#Review">Review</a></li>
+                 <li><a href="#Order">Order</a></li>
+                      
+                
+
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                
+            </div>
+
+        </nav>
+        <br><br>
+        <br><br><br>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>Love<span>Your Life</span><br>For Coffee</h1>
+
+
+
+                
+            </div>
+
+            <div class="main_image">
+                <img src="coffee.png">
+                
+            
+            </div>
+
+
+
+        
+
+        </div>
+        <br>
+        <br>
+
+        <p>
+       <Strong>Every morning I long to hold you…I need you, I want you, I have to have you…your warmth, your smell, your taste…ohhh coffee, I love you.</Strong>
+        </p>
+
+        
+
+    </section>
+
+
+
+    <!--About-->
+
+    <div class="about" id="About">
+        <div class="about_main">
+
+            <div class="image">
+                <img src="my shop.jpg">
+            </div>
+
+            <div class="about_text">
+                <h1><span>About</span>Us</h1>
+                
+                <p><strong>Hurtful coffee</strong> is one of the leading relaxing place in the world.
+                    Join us for specialty coffee to pep you up in the morning,drinks,tea and cakes or cookies.
+                    We are known for serving high-quality, great-tasting, and affordable drinks and snacks.
+                </p>
+            </div>
+
+        </div>
+
+        <a href="#" class="about_btn">Try Now</a>
+
+
+    </div>
+
+
+
+    <!--Menu-->
+
+    <div class="menu" id="Menu">
+        <h1>Special<span>Menu</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfnsI5T7tk_kYDVqluJpW818NK3-0FC4_C1g&usqp=CAU">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Cappucino</h2>
+                    <p>
+                        A cappuccino is an espresso drink with steamed milk, milk foam and espresso.<br>
+
+                         
+                    </p>
+                    <h3>₱25.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/330px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Espresso</h2>
+                    <p>
+                        
+                     It's made from the same beans as coffee but is stronger, thicker, and higher in caffeine.
+                    
+                    </p>
+                    <h3>₱30.00</h3>
+                    
+                    <a href="#" class="menu_btn">Tilawe Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="data:image/jpeg;base64,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
+                 7cP/QovGbPJ8cJWF9qTH9+K/wDTJCsWNmuOc4xFMCfjciWncz0r3VMWsy8klE1tNlk8LOgmP3MAWHjFHbekMipKpNtD/jnOVX9oqx5EiGXp32Tl6qPRa2SxSVai4rS42LVJQ/U5ozDkF5xHvW+UXqu6zCtcMmV1ZKH8zDU8qneYz
+                 tsvSfNGAthQ+5LGBO8DNu8mC3fdpbNsgBXnTZ4xeGCKMuTPKQVHm2l1LnIZKoFEXgq7Mo0CpgKqNEDkedD/AEwG7pOCgA2V7z/aHz61dia0UL3mmXdQxd6Rm5kcsz5rydv3ZD+mIJQDMa6+kGR8JqNiL40PzhjINm2n15xOfDr8FI8o
+                 jTdnOg7lz9Y7DmTPPefkfQQoWq0NyRZ8/GxY8ABuhib92fyEK0S8Bwk1O3mdkOdAABXM+XOH0loRc7GhCfAmvLWOyWoCe4Qxq1MdX08zAe0HhiXM+XzhPnUjkPh8YeqUXich8T9bjHCwBoNnrAvpBrsEybuQjokChroILKXfszMF1IXvPq
+                 YZPoDXZXTrKQsRWs5ANRF9MSpA3a8zDbTLr1ac/jDULdGbaRlXfDpTuo6ruvJmHoYv51mWgFMvoCGTrCAoFKRyT6ObXZTfeZxy9rMP87/OOfdmbM588/WL+Rd6DXyHz74k/dVC6a/OOaZyaM3IsROyJlnuxtvM/ARfSrMMQ7vOC0plxHlHU
+                 c2yDZrvAamtPo+hiwLAAjQ0AG7PX1MMZgATv+vj5Q13yr4fD1jm64AlfIV3pipy+vGI809TmSfICvrDJkzYDz4x2ZsHA+Az+UCUrQUqOO+td48v94RbqKd4J/zU+EBc9UmCzslTgi/1E/GJ+Vr9saqf8DEbEwrsHzhQ2ynOvP1MKBJ7HitE
+                 cgNMzNMxXhuHpAbRUORA2eprvhu0V5mHvYlaDPXXbu5wlOg7++GF6/WzbDRrXv8AlCrSoL27Dl9uwD6+ucNlLqfqp0+PhHF0z25x0mgoNT8f7QEw0GlDftNe4fQgtnoSSTl8BmYjY6KfAd3zPpBiaJTach3Zt508IKFYeUKmvGp+EcR+sSO6
+                 OF6JTx9Pg3jAUegqYZPs6t0HBqxjpIPOAISO/wCj6R1XNKbDQnLjls41h09iSWiXL04CgOY5d8FZqkbtYho5GXyg+LfqQPWFcuxkug6NV67h8IYXqa8/lDUfXv8AAQMtQeH16wPLYaHu27SGzJmQHH0hivUV4eZpCptP1X/aC2KkcU5E8aQ+
+                 YaV5AekDlw7VqH6qYH6CCmHIcvjBbcc6bgg/y19YAy4moDujlsermmlT5ZD0hWtL+w8tnZUzQ/WcKBhxSn1shRJspSIKa/W6OtqYUKLr7n+iT+3+RJ2YfsHP0AhQoXsfof8Ai5CGjU8jChQq4C+Tq+7B31HKFCjgD5mn1wgb6LChQ66/bFl3+kE+
+                 vOOJs5j0MchQ0eGB8oK3aaJVo7Xf8IUKJvgdcgJWnf8AGE/15woUM+Rev4OL2freYJP+C+kKFBfK/YI8P9A9/d6Q9NSeUKFDCg7N2vrdAbV2j3+sKFC/6H/2MbtQoUKEXAZcn//Z">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Caffè Americano</h2>
+                    <p>
+                        It giving it a similar strength to,
+                     but different flavor from traditionally brewed coffee. 
+                    
+                    </p>
+                    <h3>₱20.00</h3>
+                    
+                    <a href="#" class="menu_btn">Ali Na</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://media.istockphoto.com/id/497863160/photo/iced-coffee-in-takeaway-cup.jpg?s=612x612&w=0&k=20&c=oGMD3GYBJ03HnIr0xHbp4IC0QnTxTl0d_2RnxYugC1U=">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Ice Coffee</h2>
+                    <p>
+                        Iced coffee is made from regularly brewed hot coffee that's chilled and then served over ice. 
+                    </p>
+                    <h3>₱50.00</h3>
+                    
+                    <a href="#" class="menu_btn">Wanna Try</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://www.westend61.de/images/0000078453pw/glass-of-iced-coffee-with-ice-cubes-on-plate-against-white-background-CHKF01048.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Cold Blanca</h2>
+                    <p>
+                        Super Simple Iced Mocha.
+                    </p>
+                    <h3>₱18.00</h3>
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://img.freepik.com/premium-photo/concept-hot-drink-with-tea-isolated-white-background_185193-69791.jpg?w=2000">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Ginger Tea</h2>
+                    <p>
+                        A cup of tea is a solution for everything.Makawalag panuhot,di paka ma broken hearted.
+                    </p>
+                    <h3>₱20.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try It</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4O2Nbz7eMYhp84opILTx7EYC1P-plpZTOlD3lWxQww1Ufs8dxbFK2x8ncceZp0xa7XI&usqp=CAU">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Fruit Shake</h2>
+                    <p>
+                        This is when fresh bananas, berries, or even an avocado go into the blender.
+                    </p>
+                    <h3>₱90.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://img.freepik.com/premium-photo/boba-milk-tea-taiwan-milk-tea-with-bubble-white-background_431906-3484.jpg?w=2000">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Milk tea</h2>
+                    <p>
+                        It is classic enough to go sweet or savory, just omit the vanilla if going the savory route and giving you a more tender crepe.
+                    </p>
+                    <h3>₱98.00</h3>
+                   
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://spanishsabores.com/wp-content/uploads/2018/06/Mantecados.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Special Cookies</h2>
+                       <p>A cookie is a baked or cooked snack or dessert that is typically small, flat and sweet.
+                    </p>
+                    <h3>₱50.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://www.westend61.de/images/0000204189pw/pigs-ears-pastries-on-white-background-close-up-CSF017343.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Pig Ears</h2>
+                    <p>
+                        Pig's ear, as food for human consumption, is the cooked ear of pig.
+                    </p>
+                    <h3>₱50.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5d9633b6cd5e945f60815067/2c8fa34d-53da-4300-85da-a3fae11e8ef9/flat+white+macchiato">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Macchiato</h2>
+                    <p>
+                        A Macchiato is an espresso with a splash of foamy milk. 
+                    </p>
+                    <h3>₱90.00</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="https://sugargeekshow.com/wp-content/uploads/2020/01/pink-velvet-cake-fb.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Pink Velvet Cake</h2>
+                    <p>
+                        It's pretty pink insides are moist and fluffy. It's light and bouncy and absolutely delicious.
+                    </p>
+                    <h3>₱50.00/slice</h3>
+                    
+                    <a href="#" class="menu_btn">Try Now</a>
+                </div>
+
+            </div> 
+            
+        </div>
+
+    </div>
+
+
+
+
+    <!--Gallary-->
+
+    <div class="gallary" id="Gallary">
+        <h1><span>Gallary</span></h1>
+
+        <div class="gallary_image_box">
+            <div class="gallary_image">
+                <img src="https://i.pinimg.com/736x/58/f7/58/58f758bd792f532c71b9b5a1239b78af.jpg">
+                
+
+                <h3>True to Love</h3>
+                <p>
+                    Coffee is a drink prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. 
+                </p>
+                
+            </div>
+
+            <div class="gallary_image">
+                <img src="https://assets.bonappetit.com/photos/57ad43f91b3340441497558f/5:7/w_1375,h_1925,c_limit/dublin-iced-coffee.jpg">
+
+                <h3>Ice Cold Coffee</h3>
+                <p>
+                    It's sweeter and smoother 
+                </p>
+            
+            </div>
+
+            <div class="gallary_image">
+                <img src="https://i0.wp.com/owlbbaking.com/wp-content/uploads/2018/02/DSC04473-min-scaled.jpg?fit=1704%2C2560&ssl=1">
+
+                <h3>Cookies</h3>
+                <p>
+                    Makabusog 
+                </p>
+            
+            </div>
+
+            <div class="gallary_image">
+                <img src="https://i.pinimg.com/736x/91/76/6f/91766f50e503755dced005b16ebc36fa.jpg">
+
+                <h3>Velvet Snacks</h3>
+                <p>
+                    Legendary ruby cake with heavenly creamy, rich frosting.
+                </p>
+                
+            </div>
+
+            <div class="gallary_image">
+                <img src="https://i.pinimg.com/736x/74/22/dd/7422dde6ddec87b3c3cdf3e940a3e09a.jpg">
+
+                <h3>Milk Tea</h3>
+                <p>
+                    Milk tea is a refreshing flavored iced tea with tapioca balls at the bottom.
+                </p>
+                
+            </div>
+
+            <div class="gallary_image">
+                <img src="https://burst.shopifycdn.com/photos/bird-book-and-tea-time.jpg?width=1200&format=pjpg&exif=1&iptc=1">
+
+                <h3>Magical Tea</h3>
+                <p>
+                    Tea, beverage produced by steeping in freshly boiled water the young leaves and leaf buds of the tea plant, Camellia sinensis.
+                </p>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+        <h1>Customer<span>Review</span></h1>
+
+        <div class="review_box">
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDJiMDY4YjQtYjBkNC00ZTFhLWE0NjMtZjViNGU1ZTA5ZGI4XkEyXkFqcGdeQXVyMjM0NjQ2MDA@._V1_.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Marianne Pigano</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <a href="https://web.facebook.com/mariannie.pegano.1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.facebook.com/mariannie.pegano.1"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://web.facebook.com/mariannie.pegano.1"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/mariannie.pegano.1"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p>
+                        “The staff was great. I really like the atmosphere, good coffee, and nice interior. 
+                        This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile.
+                         If you’re up for a fresh place with beautiful architecture then this is a must to visit.
+                        
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKNrzB-Qf5i2Dv-_NhwHWg3PsxwHr4Fd1F9w&usqp=CAU">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Sheerwood Anderson</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                       <a href="https://web.facebook.com/jonathan.gaillard.31"><i class="fa-brands fa-facebook-f"></i></a>
+                       <a href="https://web.facebook.com/jonathan.gaillard.31"><i class="fa-brands fa-instagram"></i></a>
+                       <a href="https://web.facebook.com/jonathan.gaillard.31"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="https://web.facebook.com/jonathan.gaillard.31"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p>
+                        This place is amazing! They offered the best coffee and showed the best attitude to its costumers.
+                         Internet connection is very fast and is unlimited as well.
+                         This place is indeed perfect for studying and chilling out. It was very quiet and air-conditioned.
+                          I just want to keep coming back to this place. Thank you!
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2I_OtqspXP9hXWLGfi4-9CwrVwTjeTaec84AC0Hx8yzyBX9_iuADMIwLOZDDb3itENM&usqp=CAU">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Maria Geneva Bonilla</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <a href="https://web.facebook.com/profile.php?id=100082145659862"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100082145659862"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100082145659862"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100082145659862"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p>
+                        I would probably say that this coffee shop is a must for coffee lovers!
+                         The service was good, and the variety of coffee served in the ambiance was very satisfying.
+                        If you like your coffee shops, then this is a must-visit! We will be back again!
+
+
+                    </p>
+
+                </div>
+
+            </div>
+            </div>
+
+            
+
+                
+                
+
+
+
+    <!--Membership-->
+
+    <div class="membership" id="Membership">
+        <h1><span>Register for </span>Membership</h1>
+
+        <div class="membership_main">
+
+            <div class="membership_image">
+                <img src="https://i.pinimg.com/736x/12/73/a0/1273a02cc367ecbc1cc48d76a9efd892.jpg">
+            </div>
+
+            <form action="#">
+
+                <div class="input">
+                    <p>Name</p>
+                    <input type="Text" placeholder="Your name">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="Email" placeholder="Your email">
+                </div>
+
+                <div class="input">
+                    <p>Number</p>
+                    <input placeholder="Your number">
+                </div>
+
+                <div class="input">
+                    <p>Birtplace</p>
+                    <input type="calendar" placeholder="Place">
+                </div>
+
+                <div class="input">
+                    <p>Birtdate</p>
+                    <input placeholder="Birthday">
+                </div>
+
+                <div class="input">
+                    <p>Address</p>
+                    <input placeholder="Your Address">
+                </div>
+                
+                
+               <a href="#Home"><i class="membership_btn"></i>Submit</a>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Team-->
+
+    <div class="team">
+        <h1><span>Team</span></h1>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="maria.jpg">
+                <div class="info">
+                    <h2 class="name">Chef Ma.Ailene Marcos </h2>
+                    <p class="bio">Pastry Manager </p>
+                    <div class="team_icon"> 
+                       <a href="https://web.facebook.com/mailenesoreno"><i class="fa-brands fa-facebook-f"></i></a>
+                       <a href="https://web.facebook.com/mailenesoreno"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/mailenesoreno"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEe-FtO9oKuum6m4_IXnLhFjUdvqDGgTvgNg&usqp=CAU">
+
+                <div class="info">
+                    <h2 class="name">Catherine Young</h2>
+                    <p class="bio">Drinks and Tea Expert</p>
+
+                    <div class="team_icon">
+                        <a href="https://web.facebook.com/joycatherine.geraldemiro"> <i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.facebook.com/joycatherine.geraldemiro"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/joycatherine.geraldemiro"> <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="https://stonecenter.gc.cuny.edu/files/2020/02/Leslie_McCall_335px_465px.jpg">
+
+                <div class="info">
+                    <h2 class="name">Leslie Young</h2>
+                    <p class="bio">A Coffee Expert</p>
+                    
+                    <div class="team-icon">
+                        <a href="https://web.facebook.com/lina.c.miro"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.facebook.com/lina.c.miro"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/lina.c.miro"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                 </div>
+
+              
+            </div>
+
+            <div class="profile">
+                <img src="https://ristomanager.net/blog/wp-content/uploads/2018/09/articolo-ristomanager-diventare-camerieri-di-successo.jpg">
+
+                <div class="info">
+                    <h2 class="name">Bryan Brown</h2>
+                    <p class="bio">Waiter </p>
+
+                    <div class="team_icon">
+                        <a href="https://web.facebook.com/charry.miro.5"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.facebook.com/charry.miro.5"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/charry.miro.5"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+
+            <div class="footer_tag">
+                <h2>Location</h2>
+                <a href="https://www.google.com/maps/place/Osaka,+Japan/@34.6775981,135.4860374,12z/data=!3m1!4b1!4m5!3m4!1s0x6000e6553406e2e1:0xc55bc16ee46a2fe7!8m2!3d34.6937249!4d135.5022535?hl=en-US"><p>Japan</p></a>
+                <a href="https://www.google.com/maps/place/Toronto,+ON,+Canada/@43.8499339,-79.6154785,10z/data=!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843?hl=en-US"><p>Toronto,Canada</p></a>
+                <a href="https://www.google.com/maps/place/Gastst%C3%A4tte+Moosalm/@48.6827037,11.2839222,17z/data=!3m1!4b1!4m5!3m4!1s0x479efafbc50ce427:0x11d5dce7505cea26!8m2!3d48.6827117!4d11.2861246?hl=en-US"><p>Germany</p></a>
+                <a href="https://www.google.com/maps/place/Philippines/@11.556331,113.5773882,5z/data=!3m1!4b1!4m5!3m4!1s0x324053215f87de63:0x784790ef7a29da57!8m2!3d12.879721!4d121.774017"><p>Philippines</p></a>
+                <a href="https://www.google.com/maps/place/Seoul,+South+Korea/@37.563525,126.6938951,10z/data=!3m1!4b1!4m5!3m4!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b!8m2!3d37.566535!4d126.9779692?hl=en-US"><p>Seol,Korea</p></a>
+                <a href="https://www.google.com/maps/place/Coffee+House/@45.4576588,9.1767728,17z/data=!3m2!4b1!5s0x4786c3fe6c583e55:0xd3b7734864e09170!4m5!3m4!1s0x4786c3a9db33cc91:0x6f6333a7fd0985bf!8m2!3d45.4576588!4d9.1767728?hl=en-US"><p>Milan,Italy</p></a>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <a href="#Home"><p>Home</p></a>
+                <a href="#About"><p>About</p></a>
+                <a href="#Menu"><p>Menu</p></a>
+                <a href="#Gallary"><p>Gallary</p></a>
+                <a href="#Review"><p>Review</p></a>
+                <a href="#Order"><p>Order</p></a>
+                
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>09365693780</p>
+                <p>09519621784</p>
+                <a href="https://mail.google.com/mail"><p>cheryllmiro@gmail.com</p></a>
+                <a href="https://mail.yahoo.com/d/folders/1?.intl=sg&.lang=en-SG&.partner=none&.src=fp"><p>Hurtfulcoffee@yahoo.com</p></a>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Fast Service</h2>
+              <a href="https://www.gcash.com/" ><p>Easy Payment</p></a>
+                <p>24/7 Service</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <a href="https://web.facebook.com/profile.php?id=100006546707968"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@chechemirz?lang=en"><i class="fa-brands fa-twitter"></i>
+                <a href="https://www.instagram.com/mirz_chemz/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@chechemirz?lang=en"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+
+        </div>
+
+        <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i>indaiorim</span></p>
+
+    </footer>
+
+
+
+    
+</body>
+</html>
+
+
+
+
